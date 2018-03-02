@@ -1,0 +1,51 @@
+# Checkpost 1 for ECE 470 project
+
+This submission for the project demonstrates the first set of requirements from the ECE 470 project. I have chosen Rethink robotics Sawyer as my platform. I will be demonstrating all the joints moving, along with an object. 
+
+## Getting Started
+
+
+Create a folder outside the v-rep folder and copy the following files in it:
+vrep/programming/remoteApiBindings/python/python/vrep.py
+vrep/programming/remoteApiBindings/python/python/vrepConst.py
+vrep/programming/remoteApiBindings/lib/lib/<system>/remoteApi.dylib
+
+Relace <system> with Mac, Linux, or Windows depending on what you are running. 
+Move the check1.py file into this folder. 
+
+### Prerequisites
+Install v-rep. No dependencies required. Install anaconda to allow external python scripting. 
+
+### Installing
+
+Download V-REP PRO EDU from the Coppelia Robotics website:
+http://www.coppeliarobotics.com
+
+I renamed this folder vrep because I am efficient and want to type fewer characters.
+
+I suggest running V-REP from the command line (e.g., in a terminal). Inside vrep, type:
+
+./vrep.app/Contents/MacOS/vrep
+You should see the GUI appear. In the terminal, you should also see these lines (among others):
+
+To write python code, first install python. I recommend conda (Products -> Download -> Python 3.6 version):
+
+https://www.anaconda.com
+
+## Running the tests
+
+Open a terminal and run test.py after navigating to your code folder. You should see Sawyer move in the v-rep window with the following printing on your terminal.
+
+current value of first joint variable: theta = 0.000000
+current value of first joint variable: theta = 1.570797
+
+
+
+## Authors
+
+Varun Jain
+NetID: vjain10
+ECE 470 project
+Spring 2018
+
+
